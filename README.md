@@ -27,3 +27,6 @@ Medios de Prensa:
 - Azkintuwe	S/wp
 - Lanalhue Noticias	http://www.lanalhuenoticias.cl/
 - Diario el Austral	http://www.australtemuco.cl/
+- Araucaniadiario.cl https://araucaniadiario.cl/
+- El diario de la Araucania https://eldiariodelaaraucania.cl/
+- Primera Nota http://www.primeranota.cl/web/
