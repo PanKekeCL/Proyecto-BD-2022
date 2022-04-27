@@ -8,7 +8,7 @@ Integrantes:
 Region:
 - IX Región de la Araucanía
 
-Medios de Prensa:
+20 Medios de Prensa:
 - El Austral de la Araucanía http://www.australtemuco.cl/
 - Diarios Austral Temuco	http://www.soychile.cl/temuco/
 - Azkintuwe	https://issuu.com/azkintuwe
@@ -24,7 +24,6 @@ Medios de Prensa:
 - Temucodiario.cl	http://www.temucodiario.cl/sitio/
 - Araucania Noticias	https://www.araucanianoticias.cl/
 - Medialsur	http://www.medialsur.org/
-- Azkintuwe	S/wp
 - Lanalhue Noticias	http://www.lanalhuenoticias.cl/
 - Diario el Austral	http://www.australtemuco.cl/
 - Araucaniadiario.cl https://araucaniadiario.cl/
