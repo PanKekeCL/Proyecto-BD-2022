@@ -20,7 +20,7 @@ Region:
 - Clave 9	http://www.clave9.cl/
 - El Periodico 	http://www.elperiodico.cl/
 - La Opiñón	http://www.laopinon.cl
-- Araucania Televisión 	http://araucaniatelevision.cl/sitio/
+- Temuco Televisión 	http://araucaniatelevision.cl/sitio/
 - Temucodiario.cl	http://www.temucodiario.cl/sitio/
 - Araucania Noticias	https://www.araucanianoticias.cl/
 - Medialsur	http://www.medialsur.org/
