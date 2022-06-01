@@ -1,20 +1,27 @@
-Diario:
-	nombre_d: String
-	fecha_de_creacion: date
-	url_home: String
-	region: Int
-	pais: String
-	idioma: String
+Medio de Prensa:
+	nombre_mp:	String
+	fecha_mp:	Date
+	url_mp:		String
+	region:		Int
+	pais:		String
+	idioma:		String
+
+Dueño:
+	nombre_d: 	String
+	empresa: 	Bool
+	fecha_d: 	Date
+	# dueño_de:	String
 
 Noticia:
-	diario_publicado: String
-	titulo: String
-	autor: String
-	fecha_de_plubicacion: date
-	url_noticia: String
-	
-Periodista:
-	nombre_p:
+	titulo: 	String
+	cuerpo:		String
+	fecha_n:	date
+	url_n:		String
+	# publicado_en:	String
 
 Mencionado:
-	nombre_m:
+	nombre_m:	String
+	profesion:	String
+	nacimiento:	Date
+	nacionalidad:	String
+	popularidad:	Int
