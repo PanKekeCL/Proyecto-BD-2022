@@ -10,14 +10,18 @@ Dueño:
 	nombre_d: 	String
 	empresa: 	Bool
 	fecha_d: 	Date
-	# dueño_de:	String
+	# nombre_mp:	String
 
 Noticia:
 	titulo: 	String
 	cuerpo:		String
-	fecha_n:	date
+	fecha_n:	Date
 	url_n:		String
-	# publicado_en:	String
+	# nombre_mp:	String
+
+Mencionar:
+	# titulo:	String
+	# nombre_m:	String
 
 Mencionado:
 	nombre_m:	String
