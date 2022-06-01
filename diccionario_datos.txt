@@ -1,0 +1,20 @@
+Diario:
+	nombre_d: String
+	fecha_de_creacion: date
+	url_home: String
+	region: Int
+	pais: String
+	idioma: String
+
+Noticia:
+	diario_publicado: String
+	titulo: String
+	autor: String
+	fecha_de_plubicacion: date
+	url_noticia: String
+	
+Periodista:
+	nombre_p:
+
+Mencionado:
+	nombre_m:
