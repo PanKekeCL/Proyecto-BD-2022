@@ -39,3 +39,5 @@ cur.execute("""CREATE TABLE Mencionar(
             titulo VARCHAR(25),
             nombre_m VARCHAR(25)
             )""")
+conn.commit()         
+conn.close()
