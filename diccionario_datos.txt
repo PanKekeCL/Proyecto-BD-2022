@@ -19,13 +19,13 @@ Noticia:
 	url_n:		String
 	# nombre_mp:	String
 
-Mencionar:
-	# titulo:	String
-	# nombre_m:	String
-
 Mencionado:
 	nombre_m:	String
 	profesion:	String
 	nacimiento:	Date
 	nacionalidad:	String
 	popularidad:	Int
+
+Mencionar:
+	# titulo:	String
+	# nombre_m:	String
