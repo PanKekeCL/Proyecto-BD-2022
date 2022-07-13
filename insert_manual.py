@@ -16,7 +16,7 @@ def create_database():
             usuario = input("Ingrese su usuario local de MariaDB: ")
             contraseña = input ("Ingrese la contraseña correspondiente a su usario de MariaDB: ")
     mycursor = mydb.cursor()
-    mycursor.execute("CREATE DATABASE IF NOT EXISTS biobio_test")
+    mycursor.execute("CREATE DATABASE IF NOT EXISTS Araucania_test")
     return usuario, contraseña
 
 def create_tables(usuario, contraseña):
@@ -24,7 +24,7 @@ def create_tables(usuario, contraseña):
         host = "localhost",
         user = usuario,
         password = contraseña,
-        database = "biobio_test"
+        database = "Araucania_test"
     )
     mycursor = mydb.cursor()
     mycursor.execute("CREATE TABLE IF NOT EXISTS medio_de_prensa (id_medio INT AUTO_INCREMENT PRIMARY KEY, Nombre VARCHAR(100)," 
@@ -41,7 +41,7 @@ def create_foreign_keys(usuario, contraseña):
         host = "localhost",
         user = usuario,
         password = contraseña,
-        database = "biobio_test"
+        database = "Araucania_test"
     )
     mycursor = mydb.cursor()
     mycursor.execute("""
@@ -58,7 +58,7 @@ def insert_data(usuario, contraseña):
         host = "localhost",
         user = usuario,
         password = contraseña,
-        database = "biobio_test"
+        database = "Araucania_test"
     )
     mycursor = mydb.cursor()
     tabla = input("Ingrese el nombre de la tabla a la que quiere agregar datos (medio_de_prensa, noticia, dueños, personas): ")
