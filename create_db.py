@@ -1,8 +1,8 @@
 import pymysql
 
 Host = "localhost"
-User =
-Password = ""
+User = "usuario"
+Password = "contraseña"
 
 conn = pymysql.connect(host=Host, user=User, password=Password)
 cur = conn.cursor()
@@ -18,7 +18,7 @@ cur.execute("""CREATE TABLE MedioDePrensa(
             )""")
 cur.execute("""CREATE TABLE Dueño(
             nombre_d VARCHAR(25),
-            empresa BOOLEAN,
+            empresa VARCHAR(25),
             fecha_d DATE,
             nombre_mp VARCHAR(25)
             )""")
