@@ -26,7 +26,8 @@ cur.execute("""CREATE TABLE Noticia(
             titulo VARCHAR(25),
             cuerpo VARCHAR(255),
             fecha_n DATE,
-            url_n VARCHAR(255)
+            url_n VARCHAR(255),
+            nombre_mp VARCHAR(25)
             )""")
 cur.execute("""CREATE TABLE Mencionado(
             nombre_m VARCHAR(25),
