@@ -1,8 +1,8 @@
 import mysql.connector
 
 def create_database():
-    usuario = input("Ingrese su usuario local de MariaDB: ")
-    contraseña = input ("Ingrese la contraseña correspondiente a su usario de MariaDB: ")
+    usuario = input("Ingrese su usuario de MariaDB: ")
+    contraseña = input ("Ingrese su contraseña de MariaDB: ")
     while True:
         try:
             mydb = mysql.connector.connect(
@@ -12,9 +12,9 @@ def create_database():
             )
             break
         except:
-            print("Usuario o contraseña incorrector, por favor, ingreselos nuevamente")
-            usuario = input("Ingrese su usuario local de MariaDB: ")
-            contraseña = input ("Ingrese la contraseña correspondiente a su usario de MariaDB: ")
+            print("Usuario o contraseña incorrectos, por favor, ingreselos nuevamente.")
+            usuario = input("Ingrese su usuario de MariaDB: ")
+            contraseña = input ("Ingrese la contraseña de MariaDB: ")
     mycursor = mydb.cursor()
     mycursor.execute("CREATE DATABASE IF NOT EXISTS 9Region")
     return usuario, contraseña
@@ -27,8 +27,7 @@ def create_tables(usuario, contraseña):
         database = "9Region"
     )
     mycursor = mydb.cursor()
-    mycursor.execute("CREATE TABLE IF NOT EXISTS MedioDePrensa (id_medio INT AUTO_INCREMENT PRIMARY KEY, nombre_mp VARCHAR(25)," 
-                    "fecha_mp DATE, url_mp VARCHAR(25), region INT, pais VARCHAR(25), idioma VARCHAR(25)")
+    mycursor.execute("CREATE TABLE IF NOT EXISTS MedioDePrensa (id_medio INT AUTO_INCREMENT PRIMARY KEY, nombre_mp VARCHAR(25), fecha_mp DATE, url_mp VARCHAR(25), region INT, pais VARCHAR(25), idioma VARCHAR(25)")
     mycursor.execute("CREATE TABLE IF NOT EXISTS dueños (id_dueños INT AUTO_INCREMENT PRIMARY KEY, nombre_d VARCHAR(25), empresa VARCHAR(25), fecha_d DATE, nombre_mp VARCHAR(25))")
     mycursor.execute("CREATE TABLE IF NOT EXISTS Noticia (id_noticia INT AUTO_INCREMENT PRIMARY KEY, titulo VARCHAR(25),cuerpo VARCHAR(255),fecha_n DATE,url_n VARCHAR(255)")
     mycursor.execute("CREATE TABLE IF NOT EXISTS Mencionado (id_persona INT AUTO_INCREMENT PRIMARY KEY, nombre_m VARCHAR(25), profesion VARCHAR(25), nacimiento DATE, nacionalidad VARCHAR(25), popularidad INT")
