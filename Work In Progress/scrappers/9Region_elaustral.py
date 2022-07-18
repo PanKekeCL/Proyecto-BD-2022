@@ -68,12 +68,12 @@ except mariadb.Error as e:
 # Get Cursor
 cur = conn.cursor()
 
-cur.execute("USE medios_de_prensa") #usar la base de datos
+cur.execute("USE 9Region") #usar la base de datos
 
 session = HTMLSession()
 
 ## URL "SEED" que escrapear
-URL_SEED = "https://www.ladiscusion.cl/"
+URL_SEED = "https://www.australtemuco.cl/"
 
 ## Simular que estamos utilizando un navegador web
 USER_AGENT_LIST = [
@@ -98,13 +98,13 @@ USER_AGENT_LIST = [
 ]
 
 
-URL_PAGS = "https://www.ladiscusion.cl/category/chillan/page/"
+URL_PAGS = "https://www.australtemuco.cl/impresa/2022/07/17/full/cuerpo-principal/"
 headers = {'user-agent':random.choice(USER_AGENT_LIST) }
 
 ## Analizar ("to parse") el contenido
 xpath_url = "//div/h2[@class='entry-title']/a/@href"
 # L_url = []
-for i in range(1,2):
+for i in range(1,12):
     if(i > 1):
         session = HTMLSession()
         new_url = URL_PAGS + str(i)
