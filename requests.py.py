@@ -20,7 +20,7 @@ cur.execute("SELECT DISTINCT nombre_m FROM Mencionado m JOIN Mencionar me ON m.n
 # 3) Como evoluciona la popularidad de una persona especifica
 persona = input("Ingrese nombre de la persona: ")
 print("Mostrando evolucion de popularidad de la persona {persona}.")
-        # <-- AQUI FALTA COMPLETAR
+cur.excute("SELECT fecha_n, popularidad FROM Mencionado JOIN Mencionado ON nombre_m = nombre_m WHERE nombre_m.nombre = '{nombre}' ORDER BY fecha_n;")
 
 # 4) Cuales son los 5 medios de prensa mas antiguos en una region especifica.
 print("Mostrando los 5 medios de prensa mas antiguos de la 9ena Region.")
