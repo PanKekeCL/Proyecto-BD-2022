@@ -1,4 +1,4 @@
-Medio de Prensa:
+MedioDePrensa:
 	nombre_mp:	String
 	fecha_mp:	Date
 	url_mp:		String
