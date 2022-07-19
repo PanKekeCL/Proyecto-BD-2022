@@ -12,7 +12,7 @@
 	Listo
 7. [-] requests.py
 	Casi listo. Falta terminar la 3 y una revision.
-8. [ ] scrappers
+8. [-] scrappers
 	Falta ejecutar uno. Si sirve, copiarlo en los otros cambiando url.
 9. [ ] extract_persons.py
 	Falta terminar los scrappers.
