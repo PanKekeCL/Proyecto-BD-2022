@@ -1,0 +1,24 @@
+1. [X] Readme.txt
+	Listo
+2. [X] diccionario_datos.txt
+	Listo
+3. [X] modelo_ER.png
+	Listo
+4. [X] modelo_Relacional.png
+	Listo
+5. [X] create_db.py
+	Listo
+6. [X] insert_manual.py
+	Listo
+7. [-] requests.py
+	Casi listo. Falta terminar la 3 y una revision.
+8. [ ] scrappers
+	Falta ejecutar uno. Si sirve, copiarlo en los otros cambiando url.
+9. [ ] extract_persons.py
+	Falta terminar los scrappers.
+10.[X] extract_data_from_wikipedia.py
+	Listo
+11.[ ] insert_auto.py
+	Falta terminar todo lo anterior para implementarlo.
+12.[X] create_dump.py
+	Listo
